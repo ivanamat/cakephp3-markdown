@@ -1,0 +1,27 @@
+{
+    "name": "ivanamat/cakephp3-markdown",
+    "description": "Twitter Bootstrap Theme",
+    "keywords": ["cakephp", "cakephp3", "cake3", "plugin", "markdown", "parsedown"],
+    "homepage": "https://github.com/ivanamat/cakephp3-markdown",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Amat",
+            "homepage": "http://www.ivanamat.es",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Markdown\\": "src"
+        },
+        "classmap": [
+            "Lib/Parsedown"
+        ]
+    }
+}
