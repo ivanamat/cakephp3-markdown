@@ -33,7 +33,7 @@ class MarkdownHelper extends Helper {
     /**
      * Initialize the helper
      */
-    public function initialize($config = array()) {
+    public function initialize(array $config) {
         parent::initialize($config);
         
         $this->Parsedown = new ParsedownExtra();
