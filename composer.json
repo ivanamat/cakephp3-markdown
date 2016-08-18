@@ -1,6 +1,6 @@
 {
     "name": "ivanamat/cakephp3-markdown",
-    "description": "Twitter Bootstrap Theme",
+    "description": "CakePHP 3.x - Markdown",
     "keywords": ["cakephp", "cakephp3", "cake3", "plugin", "markdown", "parsedown"],
     "homepage": "https://github.com/ivanamat/cakephp3-markdown",
     "type": "cakephp-plugin",
