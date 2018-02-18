@@ -33,7 +33,7 @@ class MarkdownComponent extends Component {
     /**
      * Initialize the component
      */
-    public function initialize($config){
+    public function initialize(array $config){
         parent::initialize($config);
         
         $this->Parsedown = new ParsedownExtra();
